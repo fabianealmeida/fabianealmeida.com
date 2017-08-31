@@ -1,0 +1,177 @@
+@charset "UTF-8";
+/* -------------------------------------
+Filename:         style.css
+Description:      Css Principal
+Author:           Fabiane Almeida
+Company:          Fabiane Almeida Web Design & Design Gráfico
+Website:          http://www.fabianealmeida.com/
+-------------------------------------*/
+/* -----------------------*/
+/* >>>>>>>> FONTES <<<<<<-*/
+/* -----------------------*/
+@font-face {
+  font-family: "lato-regular";
+  src: url("../fonts/lato-regular-webfont.eot") format("eot"), url("../fonts/lato-regular-webfont.woff") format("woff"), url("../fonts/lato-regular-webfont.ttf") format("truetype"); }
+@font-face {
+  font-family: "lato-light";
+  src: url("../fonts/lato-light-webfont.eot") format("eot"), url("../fonts/lato-light-webfont.woff") format("woff"), url("../fonts/lato-light-webfont.ttf") format("truetype"); }
+@font-face {
+  font-family: "lato-bold";
+  src: url("../fonts/lato-bold-webfont.eot") format("eot"), url("../fonts/lato-bold-webfont.woff") format("woff"), url("../fonts/lato-bold-webfont.ttf") format("truetype"); }
+/* -----------------------*/
+/* >>> VARIÁVEIS SASS<<<<-*/
+/* -----------------------*/
+/* -----------------------*/
+/* >>> MIXINGS SASS <<<<<-*/
+/* -----------------------*/
+/*Marcador de tamanho reponsivo*/
+body {
+  font-family: "lato-light", sans-serif;
+  color: #666;
+  font-size: 10px;
+  background: #fff;
+  font-smooth: always;
+  -webkit-font-smoothing: antialiased; }
+
+h1, h2, h3, h4, h5, h6, p, label {
+  font-family: "lato-light", sans-serif; }
+
+label, p, h5 {
+  font-size: 1.4rem; }
+
+h1 {
+  font-size: 6.2rem;
+  font-weight: normal;
+  font-family: "lato-bold", sans-serif;
+  line-height: 5rem;
+  color: #1c2149; }
+  h1 span {
+    font-size: 4.4rem;
+    font-family: "lato-regular", sans-serif; }
+
+h1:after {
+  content: url("../img/whitedot.jpg");
+  width: 79px;
+  height: 7px; }
+
+h2 {
+  font-size: 1.9rem; }
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold; }
+
+h4 {
+  font-size: 1.5rem; }
+
+h6 {
+  font-size: 1.3rem; }
+
+.cPri {
+  color: #1c2149 !important; }
+
+.cSeg {
+  color: #5d8487 !important; }
+
+.cTer {
+  color: #2d75b8 !important; }
+
+.tSm {
+  font-style: 1.2 !important; }
+
+.tLg {
+  font-style: 1.6 !important; }
+
+strong {
+  font-family: "lato-bold", sans-serif; }
+
+a, a:visited {
+  color: inherit; }
+
+a:active, a:hover {
+  color: inherit;
+  text-decoration: underline; }
+
+hr {
+  border-bottom: 1px solid red;
+  margin: 0 !important; }
+
+.tCenter {
+  text-align: center; }
+
+.tLeft {
+  text-align: left; }
+
+.tRight {
+  text-align: right; }
+
+.fLeft {
+  float: left !important; }
+
+.fRight {
+  float: right !important; }
+
+.none {
+  display: none; }
+
+.db {
+  display: block; }
+
+.oh {
+  overflow: hidden; }
+
+.bd {
+  border: 1px dashed #ccc; }
+
+.nopadding {
+  margin: 0;
+  padding: 0; }
+
+.breadcrumb, .breadcrumb a {
+  font-size: 1.4rem;
+  font-family: "lato-light", sans-serif;
+  padding: 35px 0 0 0;
+  background: none !important; }
+
+/* -----------------------*/
+/* >>>>>>> HEADER <<<<<<<-*/
+/* -----------------------*/
+/* -----------------------*/
+/* >>>>>>> MAIN <<<<<<<<<-*/
+/* -----------------------*/
+/* -----------------------*/
+/* >>>>>> FOOTER <<<<<<<-*/
+/* -----------------------*/
+/* -----------------------*/
+/* >>>>>> SIDEBAR <<<<<<<-*/
+/* -----------------------*/
+/* -----------------------*/
+/* >>>>>> INDEX <<<<<<<<<-*/
+/* -----------------------*/
+/* -----------------------*/
+/* >>>>>> PLUGINS <<<<<<<-*/
+/* -----------------------*/
+/* -----------------------*/
+/* >>>>>> MEDIA QUERIES <-*/
+/* -----------------------*/
+@media only screen and (min-width: 320px) {
+  #pointer {
+    background-color: #eaedef; } }
+/* Extra Small Devices, Phones - MS*/
+@media only screen and (min-width: 480px) {
+  #pointer {
+    background-color: green; } }
+/* Small Devices, Tablets - SM */
+@media only screen and (min-width: 768px) {
+  #pointer {
+    background-color: pink; } }
+/* Medium Devices, Desktops - MD*/
+@media only screen and (min-width: 992px) {
+  #pointer {
+    background-color: yellow; } }
+/* Large Devices, Wide Screens - LG*/
+@media only screen and (min-width: 1200px) {
+  .pointer {
+    background-color: orange; } }
+
+/*# sourceMappingURL=style.csssass.map */

@@ -1,0 +1,766 @@
+/* -------------------------------------
+Filename:         style.css
+Description:      Css Principal
+Author:           Fabiane Almeida
+Company:          Fabiane Almeida Web Design & Design Gráfico
+Website:          http://www.fabianealmeida.com/
+-------------------------------------*/
+/* -----------------------*/
+/* >>>>>>>> FONTES <<<<<<-*/
+/* -----------------------*/
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+
+/* -----------------------*/
+/* >>> VARIÁVEIS SASS<<<<-*/
+/* -----------------------*/
+
+//FONTES
+$ffPadrao: "Lato", sans-serif;
+
+@mixin ffLight($ff:$ffPadrao, $fw:300){font-family:$ff; font-weight:$fw}
+@mixin ffRegular($ff:$ffPadrao, $fw:400){font-family:$ff; font-weight:$fw}
+@mixin ffBold($ff:$ffPadrao, $fw:700){font-family:$ff; font-weight:$fw}
+@mixin ffBlack($ff:$ffPadrao, $fw:900){font-family:$ff; font-weight:$fw}
+
+
+//CORES - PRINCIPAIS
+$cTxt: #666;
+$cWt: #fff;
+$cBk: #000;
+$cPri: #1c2149;
+$cPriL: lighten($cPri, 10%);
+$cPriD: darken($cPri, 10%);
+$cSeg: #df5161;
+//$cSegL: lighten($cSeg, 10%);
+//$cSegD: darken($cSeg, 10%);
+$cTer: #f9bab5;
+
+$cFlamingo: #e3928c;
+$cRose: #f08ab5;
+$cRoseClaro: #ebc0d9;
+$cLilasClaro: #ce89da;
+$cLilas: #a99eeb;
+$cCeu: #647ec7;
+$cCeuClaro: #7db5d0;
+$cAmarelo: #f7d59a;
+
+//CORES - AVISOS
+$cPerigo: red;
+$cAviso: orange;
+$cOk: green;
+
+//PADDING
+/* -----------------------*/
+/* >>> MIXINGS SASS <<<<<-*/
+/* -----------------------*/
+
+@mixin nullSpace($mr:0, $pd:0) {margin:$mr; padding:$pd;}
+@mixin padSide($side:null, $val:0){padding-#{$side}:$val}
+@mixin marSide($side:null, $val:0){margin-#{$side}:$val}
+@mixin bgColor($color:transparent){background-color:$color}
+@mixin bxsOff($hshadow:4px, $vshadow:4px, $blur:0, $color:rgba(0, 0, 0, 0.2)) {box-shadow:$hshadow $vshadow $blur $color;}
+@mixin bxsOn($hshadow:2px, $vshadow:2px, $blur:0, $color:rgba(0, 0, 0, 0.1)) {box-shadow:$hshadow $vshadow $blur $color;}
+
+/*Marcador de tamanho reponsivo*/
+#pointer{width: 50px; height: 50px; background-color: #ccc; z-index: 100; position: fixed;bottom: 0}
+
+body{@include ffRegular; color:$cTxt; font-size: 10px; background: #fff; font-smooth: always; -webkit-font-smoothing : antialiased;}
+h1,h2,h3,h4,h5,h6,p,label{@include ffRegular;}
+
+label,p,h5 {font-size: 1.4rem; color: $cPri; line-height: 2rem}
+
+h2 {font-size:1.9rem;}
+h3 {font-size:1.6rem; @include ffBlack($ff:$ffPadrao, $fw:900); text-transform: uppercase; color:$cPri; line-height: 2.3rem}
+h4 {font-size:1.5rem;}
+h6 {font-size:1.3rem;}
+
+.cPri{color: $cPri !important}
+.cSeg{color: $cSeg !important}
+.cTer{color: $cTer !important}
+
+.tSm{font-style: 1.2 !important}
+.tLg{font-style: 1.6 !important}
+
+strong{@include ffBold;}
+
+.relative{position: relative;}
+
+a{
+  color:inherit;
+  text-decoration: none;
+  &:visited, &:focus{@extend a};
+  &:active,
+  &:hover{@extend a; opacity: .8}
+} 
+
+hr{border-bottom:1px solid red; margin: 0 !important}
+
+.tCenter{text-align: center;}
+.tLeft{text-align: left;}
+.tRight{text-align: right;}
+
+.fLeft{float: left !important;}
+.fRight{float: right !important;}
+
+.none{display: none;}
+.db{display: block;}
+.oh{overflow: hidden;}
+//.tbCell{display: table-cell; vertical-align: middle;}
+
+.bd{border: 1px dashed #000;}
+.mTop40{@include marSide(top, 40px !important);}
+.mTop0{@include marSide(top, 0px !important);}
+
+// .pTop5 {@include padSide(top, 5px !important);}
+// .pBot5 {@include padSide(bottom, 5px !important);}
+// .pLeft5 {@include padSide(left, 5px !important);}
+// .pRight5 {@include padSide(right, 5px !important);}
+
+// .pTop10 {@include padSide(top, 10px !important);}
+// .pBot10 {@include padSide(bottom, 10px !important);}
+// .pLeft10 {@include padSide(left, 10px !important);}
+// .pRight10 {@include padSide(right, 10px !important);}
+
+// .pTop20 {@include padSide(top, 20px !important);}
+// .pBot20 {@include padSide(bottom, 20px !important);}
+// .pLeft20 {@include padSide(left, 20px !important);}
+// .pRight20 {@include padSide(right, 20px !important);}
+
+// .mTop5 {@include marSide(top, 5px !important);}
+// .mBot5 {@include marSide(bottom, 5px !important);}
+// .mLeft5 {@include marSide(left, 5px !important);}
+// .mRight5 {@include marSide(right, 5px !important);}
+
+// .mTop10 {@include marSide(top, 10px !important);}
+// .mBot10 {@include marSide(bottom, 10px !important);}
+// .mLeft10 {@include marSide(left, 10px !important);}
+// .mRight10 {@include marSide(right, 10px !important);}
+
+// .mTop20 {@include marSide(top, 20px !important);}
+// .mBot20 {@include marSide(bottom, 20px !important);}
+// .mLeft20 {@include marSide(left, 20px !important);}
+// .mRight20 {@include marSide(right, 20px !important);}
+
+.nopadding {
+  @include nullSpace;
+}
+//.nolpadding {
+//  @include padSide(left, 0 !important);
+//  @include marSide(left, 0 !important);
+//}
+
+//.norpadding{
+// @include padSide(right, 0 !important);
+// @include marSide(right, 0 !important);
+//}
+
+//.notpadding{
+//@include padSide(top, 0 !important);
+//@include marSide(top, 0 !important);
+//}
+
+.breadcrumb, .breadcrumb a{font-size: 1.4rem; @include ffRegular; padding:35px 0 0 0; background: none !important;}
+
+/* -----------------------*/
+/* >>>>>>> BUTTONS <<<<<<-*/
+/* -----------------------*/
+.btn-default{
+  border-radius: 20px; text-transform: uppercase;padding: 15px 20px;font-size: 1.6rem; color:$cPri; @include ffRegular; border: none; @include bxsOff();transition:.2s;
+  &:visited{@extend .btn-default}
+  &:hover, &:active, &:focus{ @include bxsOn(); color: $cSeg; background-color: $cWt;border-color:none; opacity: .9;}
+}
+.btn-primary, a.btn-primary{
+  border-radius: 10px; text-transform: uppercase;padding: 10px 15px;font-size: 1.174rem; background-color:$cPri; color:$cWt; @include ffBold($ff:$ffPadrao, $fw:700); @include bxsOff();transition:.2s; border:none;
+  &:visited{@extend .btn-primary}
+  &:hover, &:active, &:focus{ @include bxsOn(); color: $cSeg; background-color: $cPri;border-color:none; opacity: 1;}
+}
+form .btn-primary{border-radius: 5px}
+.contatoMail, .contatoFone{@include ffBlack($ff:$ffPadrao, $fw:900); color: $cPri; font-size: 3.6rem;padding:0 !important; display: block; transition:.2s}
+
+.contatoMail{font-size: 1.6rem; text-transform: uppercase; margin-top: 40px;
+  &:hover{color:$cWt; text-shadow:1px 1px 0px $cSeg; opacity: 1;}
+}
+.contatoFone{
+  line-height: 3.3rem;
+  margin-bottom: 30px;
+  &:hover{color:$cWt; text-shadow:1px 1px 0px $cSeg; opacity: 1;}
+  }
+/* -----------------------*/
+/* >>>>>> BOOTSTRAP <<<<<-*/
+/* -----------------------*/
+
+/*FORMULÁRIOS*/
+.form-group{margin-bottom: 2px}
+.form-control{border:none;color:$cPri; @include ffBlack($ff:$ffPadrao, $fw:900); font-size: 1.4rem; border-radius: 5px; padding:20px 12px;
+  &::placeholder{color:$cPri; @include ffBlack($ff:$ffPadrao, $fw:900); font-size: 1.4rem; ;text-transform: uppercase;}
+}
+textarea.form-control{min-height: 115px; resize: vertical}
+form .btn-primary, form .btn-primary:visited{width: 100%}
+.formInfo{text-transform: uppercase; margin-top: 15px; @include ffBlack($ff:$ffPadrao, $fw:900);}
+/* -----------------------*/
+/* >> BLOCOS DE TITULOS <-*/
+/* -----------------------*/
+
+#sl1 h1 {font-size:3.2rem; @include ffBlack; line-height: 3rem; color:$cPri; text-transform: uppercase;
+  span {font-size:2.4rem; @include ffLight;}
+  &:after{
+          content: " ";
+          display: block;
+          background: $cWt;
+          height: 4px;
+          width: 55px;
+          position: relative;
+          margin-top: 10px;
+          margin-left: calc(50% - 28px)
+  }
+}
+
+
+h2 {font-size:2.8rem; @include ffBlack; line-height: 2.6rem; color:$cPri; text-transform: uppercase;
+  span {font-size:1.8rem; @include ffRegular;}
+  &:after{
+          content: " ";
+          display: block;
+          background: $cPri;
+          height: 3px;
+          width: 36px;
+          position: relative;
+          margin-top: 10px;
+          margin-bottom: 4.5rem
+  }
+}
+
+h2.centerWhite, h2.lineWhite{
+  color: $cWt;
+  &:after{
+          background: $cWt;
+          height: 7px;
+          width: 79px;
+          margin-top: 20px;
+          margin-bottom: 0;
+          margin-left: calc(50% - 40px)
+  }
+}
+h2.lineWhite{
+  color: $cPri;
+  &:after{
+          background: $cWt;
+          height: 7px;
+          width: 79px;
+          margin-top: 20px;
+          margin-bottom: 0;
+          margin-left: 0;
+  }
+}
+
+#homeBl3 h2 {font-size:1.8rem; @include ffBlack; line-height: 2rem; color:$cPri; text-transform: uppercase; text-align: center; margin-top: -30px; margin-bottom: 20px !important; transition:1s; 
+  span {font-size:1.4rem; @include ffRegular;}
+  &:after{
+          content: none;
+  }
+}
+
+/* -----------------------*/
+/* >>>>>>> HOME <<<<<<<<<-*/
+/* -----------------------*/
+
+/* >>>>>>>>>>>> SLIDES <<<<<<<<<< */
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.carousel{position: inherit;}
+.carousel-control{width: 1%}
+.carousel-control.left, .carousel-control.right{background: transparent !important}
+
+/*Posição*/
+.slImgFixed{z-index: 10; margin-top:0%; background-color: transparent; }
+.slCenter{margin: 20% auto;}
+
+/*Slide 1*/
+#sl1{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f9bab5+0,8397ae+100 */
+    background: #f9bab5; /* Old browsers */
+    background: -moz-linear-gradient(top, #f9bab5 0%, #8397ae 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #f9bab5 0%,#8397ae 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #f9bab5 0%,#8397ae 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9bab5', endColorstr='#8397ae',GradientType=0 ); /* IE6-9 */
+}
+
+#sl1 p{font-size: 2.0rem; line-height:2.2rem; color: #fff; @include ffBold; display: block; margin-top: 1.5rem; margin-bottom: 3rem}
+#sl1 .slTxt{padding-left: 0px; text-align: center; margin-top:120px}
+
+/*----------BLOCO 2----------*/
+#homeBl2{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcfdfd+0,97b2bd+100 */
+background: #fcfdfd; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #fcfdfd 0%, #97b2bd 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #fcfdfd 0%,#97b2bd 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #fcfdfd 0%,#97b2bd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfdfd', endColorstr='#97b2bd',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+display: block;
+position: relative;
+padding: 100px 0 100px 0;
+}
+#homeBl2 p{@include ffBold; font-size: 1.6rem; line-height: 2.2rem}
+#homeBl2 p .black{@include ffBlack;}
+#homeBl2 a{color:$cSeg;}
+
+
+/*----------BLOCO 3----------*/
+#homeBl3{
+//colorzilla.com/gradient-editor/#f9d99b+0,df878a+100 */
+background: #f9d99b; /* Old browsers */
+background: -moz-linear-gradient(top, #f9d99b 0%, #df878a 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #f9d99b 0%,#df878a 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #f9d99b 0%,#df878a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9d99b', endColorstr='#df878a',GradientType=0 ); /* IE6-9 */  
+text-align: center;display: block; position: relative;
+}
+#homeBl3 .item{margin-bottom: 75px; transition:.2s; }
+#homeBl3 .icon{font-size: 15rem; color: $cPri; transition:.2s}
+
+/*----------BLOCO 4----------*/
+#homeBl4{
+//colorzilla.com/gradient-editor/#b5dee6+0,72a8d1+100 */
+background: #b5dee6; /* Old browsers */
+background: -moz-linear-gradient(top, #b5dee6 0%, #72a8d1 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #b5dee6 0%,#72a8d1 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #b5dee6 0%,#72a8d1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5dee6', endColorstr='#72a8d1',GradientType=0 ); /* IE6-9 */
+padding: 112px 0 70px 0;
+
+}
+
+
+  .pacotesProdutos{
+    border: none;
+    .item{
+      padding-left: 5px;
+      &:last-child{padding-left: 0;}
+    }
+    .box{
+      margin-top: 0px;
+      transition:.5s;
+      border-radius: 20px;
+      margin-bottom: 30px;
+      padding-top: 10px;
+      &:hover{box-shadow: 4px 4px 10px 0 rgba(0,0,0,.2); padding-top:0 !important}
+      .cabeca{
+        padding: 1.8rem .3rem .8rem .3rem;
+        background: $cPri;
+        border-radius: 20px 20px 0 0 ;
+        
+          p{text-transform: uppercase; font-size:1.4rem; @include ffRegular($ff:$ffPadrao, $fw:400); text-align: center !important; color: $cWt;
+          span{font-size: 1.7rem; @include ffBlack($ff:$ffPadrao, $fw:900);}
+          }
+      }
+      .corpo{
+        .preco{padding:20px 0 10px 0}
+        .desc{
+          background: #fff;
+          min-height: 150px;
+          overflow: hidden;
+          padding: 20px 0;
+          p{font-size: 1.234rem;
+            text-transform: uppercase;
+            span{ @include ffBold($ff:$ffPadrao, $fw:700);}
+          }
+        }
+      }
+      .base{
+        p{color: $cWt;font-size: 1.058rem;text-transform: uppercase; line-height: 1.5rem}
+        border-radius: 0 0 20px 20px;
+        padding:17px 0 40px 0;
+        position: relative;
+        &:hover a.btFlutuante{}
+        a.btFlutuante{position: absolute; bottom:-10px; border-radius: 20px; background: #e4e8eb; padding: 10px 20px; color:$cCeu; text-transform: uppercase; @include ffBold($ff:$ffPadrao, $fw:700);font-size: 1.174rem; margin: 0 auto; left:0; right:0; box-shadow: 4px 4px 0px 0 rgba(0,0,0,.2); max-width: 180px; transition:.2s;
+          &:hover{opacity:1; box-shadow: 2px 2px 0px 0 rgba(0,0,0,.2); background: $cPri;color: $cWt;
+          }
+        }
+      }
+    }
+  }
+
+.pacotesProdutos{
+  text-align: center;    
+  .apartir{font-size: 0.882rem; text-transform: uppercase; margin-left: -55px}
+  .rs{font-size: 1.297rem; padding-top: -30px}
+  .valor{font-size: 2.467rem; margin-top: -6px; vertical-align: top; text-shadow: 1px 1px 0px $cFlamingo;}
+  .decimal{font-size: 1.127rem; text-decoration: underline;}
+  .formadepagamento{font-size: 0.71rem; text-transform: uppercase; padding-left: 2px}
+  
+  .rs, .valor, .decimal{color:$cWt; @include ffBlack($ff:$ffPadrao, $fw:900);}
+  .decimal {@include ffRegular($ff:$ffPadrao, $fw:400);}
+  .apartir, .formadepagamento{color:$cPri;}
+  .rs, .valor, .decimal, .formadepagamento{display: inline-block;}
+  .boxPreco{margin-top: 0}
+}
+
+.bgFlamingo{background: $cFlamingo;}
+.bgCeu{background: $cCeu}
+.bgCeuClaro{background: $cCeuClaro}
+.bgLilas{background: $cLilas}
+.bgRose{background: $cRose}
+.bgAmarelo{background: $cAmarelo}
+
+.degAmareloFlamingo{
+background: $cAmarelo; /* Old browsers */
+background: -moz-linear-gradient(left, $cAmarelo 0%, $cFlamingo 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, $cAmarelo 0%,$cFlamingo 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, $cAmarelo 0%,$cFlamingo 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$cAmarelo', endColorstr='$cFlamingo',GradientType=1 ); /* IE6-9 */
+}
+
+.degRoseLilas{
+background: $cRose; /* Old browsers */
+background: -moz-linear-gradient(left, $cRose 0%, $cLilasClaro 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, $cRose 0%,$cLilasClaro 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, $cRose 0%,$cLilasClaro 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$cRose', endColorstr='$cLilasClaro',GradientType=1 ); /* IE6-9 */
+}
+
+.degCeu{
+background: $cCeu; /* Old browsers */
+background: -moz-linear-gradient(left, $cCeu 0%, $cCeuClaro 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, $cCeu 0%,$cCeuClaro 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, $cCeu 0%,$cCeuClaro 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$cCeu', endColorstr='$cCeuClaro',GradientType=1 ); /* IE6-9 */
+}
+
+.degLilasRose{
+background: $cLilas; /* Old browsers */
+background: -moz-linear-gradient(left, $cLilas 0%, $cRoseClaro 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, $cLilas 0%,$cRoseClaro 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, $cLilas 0%,$cRoseClaro 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$cLilas', endColorstr='$cRoseClaro',GradientType=1 ); /* IE6-9 */
+}
+
+
+/*----------BLOCO 5----------*/
+#homeBl5{
+background: #fff;
+padding: 47px 0 35px 0;
+display: block;
+position: relative;
+}
+
+/*----------BLOCO 6----------*/
+#homeBl6{
+//colorzilla.com/gradient-editor/#b5dee6+0,72a8d1+100 */
+background: #ffb99f; /* Old browsers */
+background: -moz-linear-gradient(top, #ffb99f 0%, #ff797e 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #ffb99f 0%,#ff797e 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #ffb99f 0%,#ff797e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb99f', endColorstr='#ff797e',GradientType=0 ); /* IE6-9 */
+padding: 112px 0 70px 0;
+}
+/*----------DIAGONAIS----------*/
+.diagHome1, .diagHome2, .diagHome3{position: absolute; z-index: 999}
+.diagHome1{right: -500px; bottom:-70px;}
+.diagHome2{left: -500px; bottom:-70px;}
+.diagHome3{right: -500px; bottom:-70px;}
+
+/*----------DIVISÓRIA HOME----------*/
+.homeDiv {background:$cPri; padding: 60px 0 40px 0; text-align: center;}
+
+/* -----------------------*/
+/* >>>>>>> HEADER <<<<<<<-*/
+/* -----------------------*/
+.navbar{background-color: $cPri; border-bottom: 3px solid $cSeg}
+
+/*XS*/
+.nav {
+    li {
+      a{
+        color: $cSeg !important; font-size: 1.3rem; @include ffBlack; text-transform: uppercase;  padding:10px 10px; transition:.2s;
+        &:hover, &:active, &:focus{color: $cTer !important; opacity: 1; margin-top: -3px;
+        }
+      }
+    }
+  }
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{border:none !important}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{background-color: $cPriL}
+/* -----------------------*/
+/* >>>>>>> MAIN <<<<<<<<<-*/
+/* -----------------------*/
+
+/* -----------------------*/
+/* >>>>>> FOOTER <<<<<<<-*/
+/* -----------------------*/
+footer{background: $cPri; padding: 20px}
+.footSocialTxt p, .copyright{color: $cSeg; text-transform: uppercase;}
+.copyright{font-size: 1.2rem; padding-top: 20px; @include ffBlack($ff:$ffPadrao, $fw:900);}
+
+.footSocialTxt{
+  margin-right: 10px;
+  float: right;
+  p{font-size: 1.4rem}
+  p span{font-size: 2rem; @include ffBlack($ff:$ffPadrao, $fw:900);}
+}
+.footSocialIcons{
+  float: right;
+  border: 1px solid #000;
+}
+
+i.fa{font-size: 4rem; color:$cSeg}
+/* -----------------------*/
+/* >>>>>> SIDEBAR <<<<<<<-*/
+/* -----------------------*/
+
+/* -----------------------*/
+/* >>>>>> INDEX <<<<<<<<<-*/
+/* -----------------------*/
+
+/* -----------------------*/
+/* >>>>>> PLUGINS <<<<<<<-*/
+/* -----------------------*/
+
+//Google Maps Map
+//@import 'googlemaps';
+
+//Slider de Marcas
+//@import 'slide';
+
+/* -----------------------*/
+/* >>>>>> MEDIA QUERIES <-*/
+/* -----------------------*/
+
+@media only screen and (min-width : 320px) {
+  #pointer{background-color: #666;;
+    &:after{content:"XS - min 320"; color:#fff; @include ffBold;}
+  }
+}
+
+/* Extra Small Devices, Phones - MS*/ 
+// @media only screen and (min-width : 480px) {
+//   #pointer{background-color: green;
+//     &:after{content:"MS - min 480"; color:#fff; font-family: $ffBold;}
+//   }
+// }
+
+/* Small Devices, Tablets - SM */
+@media only screen and (min-width : 768px) {
+  #pointer{background-color: yellow;
+    &:after{content:"SM - min 768"; color:#000; @include ffBold;}
+  }
+
+  /*Slider*/
+  .carousel-control{width: 5%}
+  .carousel-indicators{bottom:20px; position: absolute;}
+
+  .slImgFixed{margin-top:100%;}
+
+  #sl1 h1{font-size:4.2rem; line-height: 4rem;
+      span {font-size:3.4rem;}
+      &:after{
+              height: 5px;
+              width: 60px;
+              margin-top: 10px;
+              margin-left: 0;
+      }
+  }
+
+/*Home: Slide 1*/
+#sl1 .slTxt{text-align: left; margin-top:40%; text-align: left;}
+
+/*Home: Bloco 3*/
+#homeBl3{
+  padding: 80px 0;
+  .item{
+    position: relative;
+    margin-bottom: 55px; 
+    min-height: 460px;
+    &:hover{
+      margin-top: -3px; 
+      opacity: 1;
+      .icon{color:$cSeg}
+    }
+  }
+}
+
+/*----------DIAGONAIS----------*/
+.diagHome1,.diagHome3{right: -150px;}
+.diagHome2{left: -150px;}
+
+  /*Menu Nav*/
+  .nav {
+    li {
+      a{
+        color: $cSeg !important; font-size: 1.2rem; @include ffBlack;  text-transform: uppercase;  padding:40px 0px 10px 15px;
+        &:hover{color: $cTer !important; opacity: 1;
+        }
+      }
+    }
+  }
+
+}
+
+/* Medium Devices, Desktops - MD*/
+@media only screen and (min-width : 992px) {
+  #pointer{background-color: orange;
+    &:after{content:"MD - min 992"; color:#fff; @include ffBold;}
+  }
+
+  /*Slider*/
+  .carousel-control{width: 8%}
+  .slImgFixed{margin-top:50%; }
+  
+  #sli1 h1 {font-size:5.2rem; line-height: 4rem;
+        span {font-size:4.4rem;}
+        &:after{
+                height: 5px;
+                width: 60px;
+                margin-top: 5px;
+                margin-left: 0;
+        }
+  }
+#sl1 p{font-size: 2.2rem; line-height:2.5rem; margin-top: 2rem;}
+#sl1 .slTxt{text-align: left; margin-top:30%}
+
+
+/*Home: Bloco 2*/
+#homeBl2{padding: 175px 0 155px 0;}
+#homeBl3{padding: 90px 0}
+
+/*Home: Bloco 3*/
+#homeBl3 .item{min-height: 380px;}
+
+/*----------DIAGONAIS----------*/
+.diagHome1,.diagHome3{right: 0px;}
+.diagHome2{left: 0px;}
+
+
+}
+
+/* Large Devices, Wide Screens - LG*/
+@media only screen and (min-width : 1200px) {
+  #pointer{background-color: red;
+    &:after{content:"LG - min 1200"; color:#fff; @include ffBold;}
+  }
+
+  /*HOME: Slides*/
+  
+  #sl1 h1 {font-size:6.2rem; line-height: 5rem;
+        span {font-size:4.4rem;}
+        &:after{
+                height: 7px;
+                width: 79px;
+                margin-top: 20px
+        }
+
+  }
+
+  /*Slide 1*/
+  #sl1 .slTxt{padding-left: 70px; margin-top:20%}
+  .slImgFixed{margin-top:40%; }
+}
+
+/*Bloco 3*/
+#homeBl3{padding: 80px 0 10px 0;}
+#homeBl3 .item.middle{padding: 0 60px}
+#homeBl3 .item{margin-bottom: 75px; min-height: 340px;}
+
+
+/*ICON FONT*/
+
+@charset "UTF-8";
+
+@font-face {
+  font-family: "icon-font";
+  src:url("../fonts/icon-font.eot");
+  src:url("../fonts/icon-font.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/icon-font.woff") format("woff"),
+    url("../fonts/icon-font.ttf") format("truetype"),
+    url("../fonts/icon-font.svg#icon-font") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "icon-font" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "icon-font" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-attractive:before {
+  content: "\61";
+}
+.icon-idea:before {
+  content: "\62";
+}
+.icon-idea-1:before {
+  content: "\63";
+}
+.icon-sitemap:before {
+  content: "\64";
+}
+.icon-target:before {
+  content: "\65";
+}
+.icon-web-design:before {
+  content: "\66";
+}
+
+
+
+/* 
+  jQuery Logo Slider Ticker 
+  by http://webdesignandsuch.com
+  build with code from http://bxslider.com
+*/
+
+
+#slider {
+  list-style:none;
+  padding:0px
+}
+
+.slider-container { 
+  background:#fff; 
+  width:100%; 
+  height:150px; 
+  padding:0; 
+  margin-top:-5rem !important;
+}
+
+#slider img { 
+  width:200px; 
+  height:125px; 
+  margin:0px; 
+  display:inline-block; 
+  padding: 0
+}
+
+#slider li {
+  width:210px
+}
+.pager{padding:0}
+.bx-wrapper, .bx-window{width: 100% !important;}
+
+
+
+
