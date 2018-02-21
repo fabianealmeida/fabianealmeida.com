@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Fabiane Almeida</title>
+	<!--Font-Awesome-->
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<!--Favicon-->
+	<link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16" />
+
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Lato:hairline,Light,Regular,Bold,Black');
+
+		.container {
+		    left: 0;
+		    margin: auto;
+		    margin-top: -100px;
+		    position: absolute;
+		    top: 50%;
+		    width: 100%;
+		}
+		i{font-size: 100px}
+		html{
+			height: 100% !important;
+			width: 100% !important;
+}
+		body{
+			color: #283747; font-family: 'lato-black'; text-transform: uppercase; text-align: center;			
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f9bab5+0,8397ae+100 */
+background: #f9d99b; /* Old browsers */
+background: -moz-linear-gradient(top, #f9d99b 0%, #df878a 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #f9d99b 0%,#df878a 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #f9d99b 0%,#df878a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9d99b', endColorstr='#df878a',GradientType=0 ); /* IE6-9 */  
+		}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<i class="fa fa-thumbs-o-up"></i>
+		<h1>Sua mensagem foi enviada com sucesso.</h1>
+		<p>Você está sendo redirecionado para o site.</p>
+		<h2 id="hideMsg"><span>5</span> </h2>
+	</div>
+</body>
+<!--Latest jQuery minified JS-->
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<script>
+	// Your delay in milliseconds
+	// var delay = 3000; 	
+	// setTimeout(function(){ window.location = 'index.php'; }, delay);
+
+var sec = 4
+var timer = setInterval(function() { 
+   $('#hideMsg span').text(sec--);
+   if (sec == -1) {
+      $('#hideMsg').fadeOut('fast');
+      clearInterval(timer);
+      parent.history.back();
+     // window.location = 'contato.html';
+   } 
+}, 1000);
+
+
+</script>
+</html>

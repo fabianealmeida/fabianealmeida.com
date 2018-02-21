@@ -1,0 +1,840 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"j",
+				"jquery.prettyPhoto.js"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"fade",
+				"fadeIn\t.fadeIn()"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"qua",
+				"quad_azul.png\tw:76 h:76"
+			],
+			[
+				"lin",
+				"linha2.png\tw:128 h:127"
+			],
+			[
+				"fo",
+				"foto_fabi.png\tw:236 h:313"
+			],
+			[
+				"mas",
+				"mask_2.png\tw:1600 h:135"
+			],
+			[
+				"mask_",
+				"mask_2.1.png\tw:769 h:135"
+			],
+			[
+				"ma",
+				"mask2.1.png\tw:769 h:135"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"logo",
+				"logo_utp.png\tw:100 h:100"
+			],
+			[
+				"lo",
+				"logo_puc.png\tw:70 h:103"
+			],
+			[
+				"im",
+				"img/"
+			],
+			[
+				"tr",
+				"translate()"
+			],
+			[
+				"marin",
+				"margin-left"
+			],
+			[
+				"tab",
+				"table-cell"
+			],
+			[
+				"log",
+				"logo_puc.png\tw:89 h:150"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"mouse",
+				"mousedown\t.mousedown()"
+			],
+			[
+				"port",
+				"port_04.02_bg.png\tw:800 h:574"
+			],
+			[
+				"focus",
+				"focusin\t.focusin()"
+			],
+			[
+				"slide",
+				"slideUp\t.slideUp()"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"por",
+				"port_web_01.01_bg.jpg\tw:800 h:574"
+			],
+			[
+				"c",
+				"closest\t.closest()"
+			],
+			[
+				"b",
+				"bg_section1.jpg\tw:859 h:910"
+			],
+			[
+				"ease",
+				"easeInOutCubic"
+			],
+			[
+				"fsi",
+				"font-size"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"has",
+				"hasClass\t.hasClass()"
+			],
+			[
+				"ha",
+				"hasClass\t.hasClass()"
+			],
+			[
+				"to",
+				"toggle\t.toggle() (show/hide)"
+			],
+			[
+				"r",
+				"rgba()"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"ena",
+				"enableSubmitEvent"
+			],
+			[
+				"sel",
+				"selected"
+			],
+			[
+				"se",
+				"select"
+			],
+			[
+				"image",
+				"imageLocation"
+			],
+			[
+				"prev",
+				"preventDefault"
+			],
+			[
+				"mou",
+				"mouseenter\t.mouseenter()"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"w3",
+				"w3r_bg_orange"
+			],
+			[
+				"add",
+				"addClass\t.addClass()"
+			],
+			[
+				"read",
+				"ready\t$(document).ready"
+			],
+			[
+				"bs3-button",
+				"bs3-sm-button\tbs3-sm-button"
+			],
+			[
+				"mouseo",
+				"mouseover\t.mouseover()"
+			],
+			[
+				"ready",
+				"ready\t$(document).ready"
+			],
+			[
+				"key",
+				"keyup"
+			],
+			[
+				"on",
+				"ON"
+			],
+			[
+				"dia",
+				"diaEscolhido"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Snippet:nav",
+		"selected_items":
+		[
+			[
+				"Snippet:nav",
+				"Snippet: bs3-navbar"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"Snippet: html",
+				"Snippet: bs3-html5-template"
+			],
+			[
+				"Snippet: ",
+				"Snippet: CDATA"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"insla",
+				"Package Control: Install Package"
+			],
+			[
+				"add",
+				"Package Control: Add Repository"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: text",
+				"Snippet: bs3-textarea-h"
+			],
+			[
+				"Snippet: form",
+				"Snippet: bs3-form"
+			],
+			[
+				"Snippet: input",
+				"Snippet: bs3-input-text"
+			],
+			[
+				"Snippet: col",
+				"Snippet: bs3-col-4"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: list",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 524.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida_site/teste_portfolio.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida_site/js/navegador_abas.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida_site/css/portfolio.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida_site/css/prettyPhoto.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida_site/js/portfolio.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida_site/includes/_head.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida_site/js/jquery.prettyPhoto.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida_site/js/jquery.isotope.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida_site/js/seletor.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida_site/pacotes_de_servicos.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida_site/css/scss/style.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida_site/css/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida_site/como_posso_te_ajudar.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida_site/contato.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida_site/includes/_head_nav.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida_site/js/dropdownmenubootstrap.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida_site/criando_seu_site.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida_site/melhorando_sua_imagem.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida_site/includes/_foot.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida_site/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida_site/js/main.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida_site/js/custom.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida_curriculo/index.php",
+		"/Volumes/Macintosh HD/Users/Fabiane/Dropbox/_PRESETS/_STARTER_FOLDER/PLUGINS/banner_parallax/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida_site/fonts/icon-font.svg",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida_site/fonts/icon-font.ttf",
+		"/Volumes/Macintosh HD/Users/Fabiane/Dropbox/_PRESETS/_STARTER_FOLDER/PLUGINS/banner_parallax/_banner_parallax.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida_site/js/parallax_banner.js",
+		"/Volumes/Macintosh HD/Users/Fabiane/Dropbox/_PRESETS/_STARTER_FOLDER/PLUGINS/banner_parallax/css/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida_site/js/bootstrap.js",
+		"/Volumes/Macintosh HD/Users/Fabiane/Downloads/compiled-with-examples/parallax-example-usage/interactive.html",
+		"/Volumes/Macintosh HD/Users/Fabiane/Downloads/compiled-with-examples/parallax-example-usage/relative.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida_site/includes/_slider_full.php",
+		"/Volumes/Macintosh HD/Users/Fabiane/Downloads/compiled-with-examples/parallax-example-usage/styles.css",
+		"/Volumes/Macintosh HD/Users/Fabiane/Dropbox/_PRESETS/_STARTER_FOLDER/index.html",
+		"/Volumes/Macintosh HD/Users/Fabiane/Downloads/compiled-with-examples/parallax-example-usage/separate_axis_data.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida_site/simple.html",
+		"/Volumes/Macintosh HD/Users/Fabiane/Downloads/parallax-master/examples/assets/styles.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida_site/css/scss/styles2.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida_site/parallaxtest.html",
+		"/Volumes/Macintosh HD/Users/Fabiane/Downloads/parallax-master/examples/assets/callback.html",
+		"/Volumes/Macintosh HD/Users/Fabiane/Downloads/parallax-master/examples/assets/parallax.js",
+		"/Volumes/Macintosh HD/Users/Fabiane/Downloads/parallax-master/examples/pages/callback.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida_site/sucesso.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida_site/formulario.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida_site/css/animate.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida_site/includes/_loader.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida_site/js/jquery.waypoints.min.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida_site/formulariomodal.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida_site/js/jquery.validate.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida_site/js/phoneBR.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida_site/js/formconfig.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida_site/js/slider_full.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida_site/js/parallaxHorizontal.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida/css/custom.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida/js/custom.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida/js/fullpage.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida/js/svginline.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida/img/bg_diagonal.svg",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida/portfolio.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida/js/modal3.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida/indextext.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida/js/portfolio.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida/js/modal2.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida/js/modal.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida/foo.html",
+		"/Volumes/Macintosh HD/Users/Fabiane/Dropbox/_PRESETS/_STARTER_FOLDER/css/style.scss",
+		"/Volumes/Macintosh HD/Users/Fabiane/Dropbox/_PRESETS/_STARTER_FOLDER/index_base.html",
+		"/Volumes/Macintosh HD/Users/Fabiane/Dropbox/_PRESETS/_STARTER_FOLDER/js/facebook_likebox.js",
+		"/Volumes/Macintosh HD/Users/Fabiane/Dropbox/_PRESETS/_STARTER_FOLDER/js/flexicell.js",
+		"/Volumes/Macintosh HD/Users/Fabiane/Dropbox/_PRESETS/_STARTER_FOLDER/js/googlemaps.js",
+		"/Volumes/Macintosh HD/Users/Fabiane/Dropbox/_PRESETS/_STARTER_FOLDER/css/scss/_slide.scss",
+		"/Volumes/Macintosh HD/Users/Fabiane/Dropbox/_PRESETS/_STARTER_FOLDER/css/scss/_googlemaps.scss",
+		"/Volumes/Macintosh HD/Users/Fabiane/Dropbox/_PRESETS/_STARTER_FOLDER/css/scss/slide.scss",
+		"/Volumes/Macintosh HD/Users/Fabiane/Dropbox/_PRESETS/_STARTER_FOLDER/css/scss/googlemaps.scss",
+		"/Volumes/Macintosh HD/Users/Fabiane/Dropbox/_PRESETS/_STARTER_FOLDER/css/custom.css",
+		"/Volumes/Macintosh HD/Users/Fabiane/Dropbox/_PRESETS/_STARTER_FOLDER/js/custom.js",
+		"/Volumes/Macintosh HD/Users/Fabiane/Dropbox/_PRESETS/_STARTER_FOLDER/index_clean.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida/teste.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida/simple.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida/imagens.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida/_padrao.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida/_padrao_clean.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/fabianealmeida/grade.html",
+		"/Volumes/Macintosh HD/Users/Fabiane/Desktop/MYWEBSITE/_STARTER_FOLDER/index.html",
+		"/Volumes/Macintosh HD/Users/Fabiane/Desktop/MYWEBSITE/_STARTER_FOLDER/teste.html",
+		"/Volumes/Macintosh HD/Users/Fabiane/Desktop/MYWEBSITE/_STARTER_FOLDER/foo.html",
+		"/Volumes/Macintosh HD/Users/Fabiane/Desktop/MYWEBSITE/_STARTER_FOLDER/js/sr.reveal.js",
+		"/Volumes/Macintosh HD/Users/Fabiane/Desktop/MYWEBSITE/_STARTER_FOLDER/js/slider.js",
+		"/Volumes/Macintosh HD/Users/Fabiane/Desktop/MYWEBSITE/_STARTER_FOLDER/js/custom.js",
+		"/Volumes/Macintosh HD/Users/Fabiane/Desktop/MYWEBSITE/_STARTER_FOLDER/index3.html",
+		"/Volumes/Macintosh HD/Users/Fabiane/Desktop/MYWEBSITE/_STARTER_FOLDER/portfolio.html",
+		"/Volumes/Macintosh HD/Users/Fabiane/Desktop/MYWEBSITE/_STARTER_FOLDER/js/portfolio.js",
+		"/Volumes/Macintosh HD/Users/Fabiane/Desktop/MYWEBSITE/_STARTER_FOLDER/css/custom.css",
+		"/Volumes/Macintosh HD/Users/Fabiane/Desktop/MYWEBSITE/_STARTER_FOLDER/js/modal.js",
+		"/Volumes/Macintosh HD/Users/Fabiane/Desktop/MYWEBSITE/_STARTER_FOLDER/js/fullpage.js",
+		"/Volumes/Macintosh HD/Users/Fabiane/Desktop/MYWEBSITE/_STARTER_FOLDER/css/bootstrap.css",
+		"/Volumes/Macintosh HD/Users/Fabiane/Desktop/MYWEBSITE/_STARTER_FOLDER/imagens.php",
+		"/Volumes/Macintosh HD/Users/Fabiane/Desktop/MYWEBSITE/_STARTER_FOLDER/_padrao.html",
+		"/Volumes/Macintosh HD/Users/Fabiane/Desktop/MYWEBSITE/_STARTER_FOLDER/css/port.css",
+		"/Volumes/Macintosh HD/Users/Fabiane/Downloads/behance-master/index.html",
+		"/Volumes/Macintosh HD/Users/Fabiane/Desktop/MYWEBSITE/_STARTER_FOLDER/indextext.html",
+		"/Volumes/Macintosh HD/Users/Fabiane/Downloads/fullPage.js-master 2/examples/apple.html",
+		"/Volumes/Macintosh HD/Users/Fabiane/Desktop/MYWEBSITE/_STARTER_FOLDER/js/jquery.fullPage.js",
+		"/Volumes/Macintosh HD/Users/Fabiane/Desktop/MYWEBSITE/_STARTER_FOLDER/index2.html",
+		"/Volumes/Macintosh HD/Users/Fabiane/Desktop/MYWEBSITE/_STARTER_FOLDER/css/jquery.fullPage.css",
+		"/Volumes/Macintosh HD/Users/Fabiane/Desktop/MYWEBSITE/_STARTER_FOLDER/simple.html",
+		"/Volumes/Macintosh HD/Users/Fabiane/Desktop/MYWEBSITE/_STARTER_FOLDER/css/cover.css",
+		"/Volumes/Macintosh HD/Users/Fabiane/Desktop/MYWEBSITE/fullPage.js-master/README.md",
+		"/Volumes/Macintosh HD/Users/Fabiane/Downloads/bootstrap-3.3.7/docs/examples/cover/cover.css",
+		"/Volumes/Macintosh HD/Users/Fabiane/Downloads/bootstrap-3.3.7/docs/examples/cover/index2.html",
+		"/Volumes/Macintosh HD/Users/Fabiane/Desktop/MYWEBSITE/_STARTER_FOLDER/grade.html",
+		"/Volumes/Macintosh HD/Users/Fabiane/Desktop/startbootstrap-creative-gh-pages/gulpfile.js",
+		"/Volumes/Macintosh HD/Users/Fabiane/Desktop/startbootstrap-creative-gh-pages/index.html",
+		"/Volumes/Macintosh HD/Users/Fabiane/Desktop/startbootstrap-creative-gh-pages/LICENSE",
+		"/Volumes/Macintosh HD/Users/Fabiane/Desktop/startbootstrap-creative-gh-pages/package.json",
+		"/Volumes/Macintosh HD/Users/Fabiane/Desktop/_Projetos/bootstrap_portfolio.md",
+		"/Volumes/Macintosh HD/Users/Fabiane/Downloads/jQuery Basics/6 - Creating a Simple Drawing Application/Project Files/index.html",
+		"/Volumes/Macintosh HD/Users/Fabiane/Downloads/jQuery Basics/6 - Creating a Simple Drawing Application/Project Files/js/app.js",
+		"/Volumes/Macintosh HD/Users/Fabiane/Downloads/jQuery Basics/6 - Creating a Simple Drawing Application/Project Files/css/style.css",
+		"/Volumes/Macintosh HD/Users/Fabiane/Desktop/new_site/js/biblioteca_jquery.js",
+		"/Volumes/Macintosh HD/Users/Fabiane/Downloads/jQuery Basics/5 - Creating a Password Confimation Form/Project Files/css/style.css",
+		"/Volumes/Macintosh HD/Users/Fabiane/Downloads/jQuery Basics/5 - Creating a Password Confimation Form/Project Files/index.html",
+		"/Volumes/Macintosh HD/Users/Fabiane/Downloads/jQuery Basics/5 - Creating a Password Confimation Form/Project Files/js/app.js",
+		"/Volumes/Macintosh HD/Users/Fabiane/Desktop/popup.html",
+		"/Volumes/Macintosh HD/Users/Fabiane/Downloads/jQuery Basics/4 - Creating a Mobile Drop Down Menu/Project Files/css/style.css",
+		"/Volumes/Macintosh HD/Users/Fabiane/Downloads/jQuery Basics/4 - Creating a Mobile Drop Down Menu/Project Files/index.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+			"<open folders>",
+			"/Volumes/Macintosh HD/Users/Fabiane/Desktop/MYWEBSITE/_STARTER_FOLDER/fonts",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"modal",
+			"portfolio",
+			"hr",
+			"css",
+			"jquer.pre",
+			"seletores",
+			"item",
+			"seletores",
+			"blServicos",
+			"pacotes",
+			"produtos",
+			"pacoteserv",
+			"pacotesser",
+			"button",
+			"id=\"bl",
+			"id=\"lb",
+			"bl",
+			"pacotesProdutos",
+			"seletores",
+			"navegadorAbas",
+			"itemMenuSelecao",
+			"navegadorAbasContent",
+			"navegadorAbas",
+			"item",
+			"pacotesProdutos",
+			"individuais",
+			"blImagem",
+			"#blImagem",
+			".nav-tabs",
+			"\t\t\t\t<i class=\"fa fa-arrow-down small mTop60 animate-box itemMenuSelecao arrow\"  data-link=\"Criandosite\" data-animate-effect=\"fadeInUp\"></i>",
+			"<i class=\"fa fa-arrow-down small mTop60 animate-box itemMenuSelecao arrow\"  data-link=\"Promocionais\" data-animate-effect=\"fadeInUp\"></i>",
+			" animate-box\" data-animate-effect=\"fadeInUp\"",
+			"animate-box\" data-animate-effect=\"fadeInUp",
+			" animate-box\" data-animate-effect=\"fadeInUp\"",
+			"section",
+			"melhorando",
+			"Criandosite",
+			"criandosite",
+			"criandosites",
+			"promocionais",
+			"imagem",
+			"criandosite",
+			"Criandosite",
+			"active",
+			".nav",
+			"fa",
+			"Servicos",
+			"individuais",
+			"blIndividuais",
+			"individuais",
+			"pacotedeservicos",
+			"interna",
+			"inactive",
+			"disabled",
+			"interna",
+			"melhorando o seu site",
+			"papelaria",
+			"&:hover",
+			"li",
+			"content",
+			"container",
+			"idea",
+			"imagem",
+			"ico",
+			"sites",
+			"blSites",
+			"site",
+			"stitInterna",
+			"titInterna",
+			".titInterna .triang",
+			"flech",
+			"arrow",
+			"degAmareloFlamingo",
+			"produtos",
+			"degRoseLilas",
+			"produtos",
+			"produto",
+			"db",
+			"fa-arrow",
+			"titInterna",
+			"produtosindividuais",
+			"produtosindividuaisprodutosindividuais",
+			"custom.css",
+			"decCeuClaro",
+			"ceu",
+			"id=\"produtos",
+			"produtos",
+			"titInterna",
+			".titInterna p",
+			"blocoTit",
+			"titInterna",
+			"PRODUTOS",
+			"pacotes",
+			"fright",
+			"lkpro",
+			"fright",
+			"lkpacoteservicos",
+			"lkprodutosindividuais",
+			"lkpacoteservicos",
+			"Produtos",
+			"Prodtuos Ind",
+			"Pacotes de ",
+			"disable",
+			"lkpacoteservicos",
+			"lkpacotesservicos",
+			"lkprodutos",
+			"Produtos",
+			"disable",
+			"txtColor",
+			"fright",
+			".right",
+			"fa",
+			"bd",
+			"cSeg",
+			"Pacote de servi",
+			"cSeg",
+			"Pacote de servi",
+			"lkpacotedeservicos",
+			"produtos",
+			"pacotedeservicos",
+			"pacotes indi",
+			"seletores",
+			"pacotesProdutos",
+			"seletores",
+			"ceu",
+			"pacotesProdutos",
+			"portInterna",
+			"#portfolio .container"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\t\t\t\t<i class=\"fa fa-arrow-down small mTop60 itemMenuSelecao arrow\"  data-link=\"Criandosite\"></i>",
+			"<i class=\"fa fa-arrow-down small mTop60 itemMenuSelecao arrow\"  data-link=\"Promocionais\"></i>",
+			"\"",
+			"degCeuClaro",
+			"fRight",
+			"$cPri",
+			"sl",
+			".sl1",
+			"100",
+			".jpg",
+			"",
+			"1.",
+			"fSize",
+			"img/logos",
+			"$this",
+			"col-md",
+			"skillbar-bar ",
+			"skillbar-bar",
+			"",
+			"sr1",
+			"sr2",
+			"lato-black",
+			"passwordVal",
+			"$confPasswordVal",
+			"$confirmPassword",
+			":"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/SASS Build/SASS.sublime-build",
+	"project": "fabianealmeida-curriculo.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"_STARTER_FOLDER/_padrao.html"
+			],
+			[
+				"custom.css",
+				"css/custom.css"
+			],
+			[
+				"jque",
+				"js/jquery-3.1.1.min.js"
+			],
+			[
+				"htacess",
+				".htaccess"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 268.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
